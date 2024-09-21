@@ -61,9 +61,3 @@ public interface IShape
 - **DLL Not Detected**: Ensure the DLL is in the `Plugins` folder and properly built.
 - **Access Issues**: Verify the DLL is fully copied before loading.
 
-## License
-
-This project is available under the [MIT License](LICENSE).
-```
-
-This shorter version provides a concise explanation of the project, its structure, and how to set it up. Let me know if you need further modifications!
