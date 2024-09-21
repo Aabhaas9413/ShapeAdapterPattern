@@ -1,6 +1,4 @@
-Here's a shorter version of the **README.md** file:
 
-```markdown
 # Shape Plugin Adapter Pattern
 
 This project demonstrates a dynamic plugin system to calculate the area of different shapes (Square, Rectangle) using .NET Reflection. Shape DLLs are monitored, loaded, and executed at runtime through the Plugin Adapter Pattern.
@@ -22,7 +20,6 @@ public interface IShape
 {
     int CalculateArea(int length, int width);
 }
-```
 
 ## Setup Instructions
 
