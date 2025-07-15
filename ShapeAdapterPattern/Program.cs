@@ -110,7 +110,7 @@ public class Program
                 if (typeof(IShape).IsAssignableFrom(type) && !type.IsInterface)
                 {
                     // Create an instance of the shape
-                    Console.WriteLine($"Found shape: {type.Name}");
+                    Console.WriteLine($"Found shape after resolution: {type.Name}");
                     object shapeInstance = Activator.CreateInstance(type);
                     IShape shape = (IShape)shapeInstance;
 
